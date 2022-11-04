@@ -1,12 +1,28 @@
 #include "config.h"
+#include "mysql/mysql.h"
+#include <iostream>
+using namespace std;
 
 int main(int argc, char *argv[])
 {
     //需要修改的数据库信息,登录名,密码,库名
     string user = "root";
-    string passwd = "root";
-    string databasename = "qgydb";
-
+    string passwd = "123456";
+    string databasename = "yourdb";
+    string host = "127.0.0.1";
+    //MYSQL连接测试
+    MYSQL *mysql;
+    mysql = mysql_init(nullptr);
+    if (mysql == nullptr) {
+	   cout << "ERROR: " << mysql_error(mysql) << endl;
+	   return 0;
+    }
+    mysql = mysql_real_connect(mysql, host.c_str(), user.c_str(), passwd.c_str(), databasename.c_str(), 0, nullptr, 0);
+    if (mysql == nullptr) {
+	   cout << "ERROR: " << mysql_error(mysql) << endl;
+	   return 0;
+    }
+    cout << "mysql connect success!" << endl;
     //命令行解析
     Config config;
     config.parse_arg(argc, argv);

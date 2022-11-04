@@ -1,0 +1,15 @@
+/root/TinyWebServer/build/CMakeFiles/rebuild_cache.dir
+/root/TinyWebServer/build/CMakeFiles/edit_cache.dir
+/root/TinyWebServer/build/CMakeFiles/server.dir
+/root/TinyWebServer/build/CGImysql/CMakeFiles/rebuild_cache.dir
+/root/TinyWebServer/build/CGImysql/CMakeFiles/edit_cache.dir
+/root/TinyWebServer/build/CGImysql/CMakeFiles/sqlcon.dir
+/root/TinyWebServer/build/log/CMakeFiles/rebuild_cache.dir
+/root/TinyWebServer/build/log/CMakeFiles/edit_cache.dir
+/root/TinyWebServer/build/log/CMakeFiles/log.dir
+/root/TinyWebServer/build/http/CMakeFiles/rebuild_cache.dir
+/root/TinyWebServer/build/http/CMakeFiles/edit_cache.dir
+/root/TinyWebServer/build/http/CMakeFiles/http.dir
+/root/TinyWebServer/build/timer/CMakeFiles/edit_cache.dir
+/root/TinyWebServer/build/timer/CMakeFiles/rebuild_cache.dir
+/root/TinyWebServer/build/timer/CMakeFiles/timer.dir

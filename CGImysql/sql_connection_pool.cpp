@@ -42,12 +42,26 @@ void connection_pool::init(string url, string User, string PassWord, string DBNa
 			LOG_ERROR("MySQL Error");
 			exit(1);
 		}
-		con = mysql_real_connect(con, url.c_str(), User.c_str(), PassWord.c_str(), DBName.c_str(), Port, NULL, 0);
+		// con = mysql_real_connect(con, url.c_str(), User.c_str(), PassWord.c_str(), DBName.c_str(), Port, NULL, 0);
 
-		if (con == NULL)
-		{
-			LOG_ERROR("MySQL Error");
-			exit(1);
+		// if (con == NULL)
+		// {
+		// 	LOG_ERROR("MySQL Error");
+		// 	exit(1);
+		// }
+		
+		cout << "host: " << url << endl;
+		cout << "user: " << User << endl;
+		cout << "password: " << PassWord << endl;
+		cout << "database: " << DBName << endl;
+		cout << "port: " << Port << endl;
+		url = "127.0.0.1";
+		User = "root";
+		PassWord = "123456";
+		DBName = "yourdb";
+		if (!mysql_real_connect(con, url.c_str(), User.c_str(), PassWord.c_str(), DBName.c_str(), 0, NULL, 0)){
+			cout << mysql_errno(con) << "   " << mysql_error(con) << endl;
+			//exit(1);
 		}
 		connList.push_back(con);
 		++m_FreeConn;
