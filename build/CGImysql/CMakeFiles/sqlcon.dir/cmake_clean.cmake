@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
+  "../../lib/libsqlcon.a"
+  "../../lib/libsqlcon.pdb"
   "CMakeFiles/sqlcon.dir/sql_connection_pool.cpp.o"
-  "CMakeFiles/sqlcon.dir/sql_connection_pool.cpp.o.d"
-  "libsqlcon.a"
-  "libsqlcon.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "liblog.a"
+  "../../lib/liblog.a"
 )

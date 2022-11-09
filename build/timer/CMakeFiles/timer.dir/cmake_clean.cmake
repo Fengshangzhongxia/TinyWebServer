@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
+  "../../lib/libtimer.a"
+  "../../lib/libtimer.pdb"
   "CMakeFiles/timer.dir/lst_timer.cpp.o"
-  "CMakeFiles/timer.dir/lst_timer.cpp.o.d"
-  "libtimer.a"
-  "libtimer.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

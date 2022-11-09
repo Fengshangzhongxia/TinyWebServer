@@ -1,2 +1,2 @@
-/usr/bin/ar qc libsqlcon.a CMakeFiles/sqlcon.dir/sql_connection_pool.cpp.o
-/usr/bin/ranlib libsqlcon.a
+/usr/bin/ar qc ../../lib/libsqlcon.a  CMakeFiles/sqlcon.dir/sql_connection_pool.cpp.o
+/usr/bin/ranlib ../../lib/libsqlcon.a

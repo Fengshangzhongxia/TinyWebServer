@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libtimer.a"
+  "../../lib/libtimer.a"
 )

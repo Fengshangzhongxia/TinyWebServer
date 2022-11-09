@@ -1,2 +1,2 @@
-/usr/bin/ar qc libtimer.a CMakeFiles/timer.dir/lst_timer.cpp.o
-/usr/bin/ranlib libtimer.a
+/usr/bin/ar qc ../../lib/libtimer.a  CMakeFiles/timer.dir/lst_timer.cpp.o
+/usr/bin/ranlib ../../lib/libtimer.a

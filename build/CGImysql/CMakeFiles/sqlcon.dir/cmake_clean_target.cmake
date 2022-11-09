@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libsqlcon.a"
+  "../../lib/libsqlcon.a"
 )

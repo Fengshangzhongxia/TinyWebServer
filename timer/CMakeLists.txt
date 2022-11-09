@@ -1,2 +1,13 @@
-aux_source_directory(. dir_timer_srcs)
-add_library(timer ${dir_timer_srcs})
+add_library(timer "")
+
+target_sources(timer
+PRIVATE
+    ${CMAKE_CURRENT_LIST_DIR}/lst_timer.cpp
+PUBLIC
+    ${CMAKE_CURRENT_LIST_DIR}/lst_timer.h
+)
+
+target_include_directories(timer
+PUBLIC  
+    ${CMAKE_CURRENT_LIST_DIR}
+)

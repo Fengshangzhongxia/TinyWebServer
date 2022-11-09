@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libhttp.a"
+  "../../lib/libhttp.a"
 )

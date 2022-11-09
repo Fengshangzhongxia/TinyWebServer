@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
+  "../../lib/libhttp.a"
+  "../../lib/libhttp.pdb"
   "CMakeFiles/http.dir/http_conn.cpp.o"
-  "CMakeFiles/http.dir/http_conn.cpp.o.d"
-  "libhttp.a"
-  "libhttp.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
